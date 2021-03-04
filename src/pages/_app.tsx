@@ -9,6 +9,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
         <title>React Avançado - Boilerplate</title>
         <link rel="shorcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-192.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="A simple project starter work with Typescript, React, NextJs and Styles Components"
